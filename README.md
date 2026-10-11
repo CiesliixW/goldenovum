@@ -1,7 +1,25 @@
-# goldenovum-o-nas
+# goldenovum
 
-Statyczne odtworzenie strony „O nas” z https://www.goldenovum.pl/o-nas.
+Statyczne odtworzenie strony https://www.goldenovum.pl: strona główna, O nas, Obszary działalności, Kontakt i Polityka prywatności.
 
-Otwórz `index.html` w przeglądarce. Bez buildu i zależności: oryginalny CSS i grafiki są w `assets/`, a menu mobilne obsługuje mały skrypt inline.
+Czysty HTML i CSS, bez buildu i zależności. Oryginalny arkusz stylów i grafiki są w `assets/`, a menu mobilne obsługuje mały skrypt inline na każdej stronie.
 
-Linki do pozostałych podstron (Obszary działalności, Kontakt, Polityka prywatności) są zaślepkami `#`.
+## Deploy na Vercelu
+
+1. Na vercel.com: **Add New → Project**, potem import tego repozytorium.
+2. Framework Preset: **Other**. Build Command i Output Directory zostaw puste.
+3. Deploy.
+
+Albo z terminala: `npx vercel` (podgląd) / `npx vercel --prod` (produkcja).
+
+`vercel.json` włącza `cleanUrls`, więc adresy działają jak w oryginale (`/o-nas`, `/kontakt` itd.). Ustawia też długi cache dla `assets/`.
+
+## Podgląd lokalny
+
+Linki są ścieżkami od korzenia (`/o-nas`), więc otwarcie pliku z dysku ich nie obsłuży. Uruchom lokalny serwer:
+
+```
+npx serve .
+```
+
+i wejdź na http://localhost:3000.
