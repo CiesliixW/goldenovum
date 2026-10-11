@@ -20,7 +20,11 @@ Animacja w hero działa w samym CSS i SVG. Przy włączonym w systemie „ograni
 
 Albo z terminala: `npx vercel --prod`.
 
-`vercel.json` włącza `cleanUrls` (`/polityka-prywatnosci` bez `.html`) i przekierowuje stare adresy `/o-nas`, `/obszary-dzialalnosci`, `/kontakt` do odpowiednich sekcji strony głównej.
+`vercel.json` włącza `cleanUrls` (`/polityka-prywatnosci` bez `.html`).
+
+## Powiązanie z holdingiem
+
+To jedna ze stron grupy. Strona holdingu jest w repo [goldenovum-holdings](https://github.com/CiesliixW/goldenovum-holdings). Odnośniki do niej (pasek na górze, sekcja o firmie, stopka) mają atrybut `data-holding-link` i prowadzą do `https://goldenovum.pl`. Jeśli adres będzie inny, podmień go w `index.html` i `polityka-prywatnosci.html`.
 
 ## Podgląd lokalny
 

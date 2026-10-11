@@ -2,15 +2,15 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    { "source": "/o-nas", "destination": "/#o-firmie", "permanent": true },
-    { "source": "/obszary-dzialalnosci", "destination": "/#co-robimy", "permanent": true },
-    { "source": "/kontakt", "destination": "/#kontakt", "permanent": true }
-  ],
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, must-revalidate"
+        }
+      ]
     }
   ]
 }

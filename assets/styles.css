@@ -404,3 +404,12 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-
   .steps::after { transition: none; }
   .js [data-reveal] { opacity: 1; transform: none; transition: none; }
 }
+
+/* Pasek grupy nad nagłówkiem */
+.topbar { background: var(--ink); color: rgba(244, 242, 236, .72); font-size: 13px; }
+.topbar__inner { display: flex; gap: 6px; align-items: center; justify-content: flex-end; height: 34px; }
+.topbar a { color: #e3c77d; text-decoration: none; }
+.topbar a:hover { color: var(--paper); }
+.statement__link { margin-top: 12px; color: #e3c77d; text-decoration: none; font-weight: 500; }
+.statement__link:hover { color: var(--paper); }
+@media (max-width: 640px) { .topbar__inner { justify-content: center; } }
