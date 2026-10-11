@@ -1,12 +1,268 @@
-<!DOCTYPE html><html lang="pl"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/assets/goldenovum-logo-CQEzT6NS.png"/><link rel="preload" as="image" href="/assets/home-lobby-Bn4DWvPc.webp" fetchPriority="high"/><link rel="stylesheet" href="/assets/styles-C1P_q36H.css" data-precedence="default"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" data-precedence="default"/><title>Goldenovum Holdings | Budujemy wartość</title><meta name="author" content="Goldenovum Holdings"/><meta name="description" content="Goldenovum Holdings rozwija projekty, chroni wartość i buduje długoterminowy wzrost."/><meta property="og:title" content="Goldenovum Holdings | Budujemy wartość"/><meta property="og:description" content="Goldenovum Holdings rozwija projekty, chroni wartość i buduje długoterminowy wzrost."/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="icon" href="/favicon.png" type="image/png"/><style>.mobile-nav[hidden]{display:none}</style></head><body><div class="site-shell"><header class="site-header site-header--home"><div class="site-header__inner"><a aria-label="Goldenovum Holdings — strona główna" class="active" href="/" aria-current="page"><img class="site-logo" src="/assets/goldenovum-logo-CQEzT6NS.png" alt="Goldenovum Holdings" width="600" height="185"/></a><nav class="desktop-nav" aria-label="Główna nawigacja"><a class="nav-link" href="/o-nas">O nas</a><a class="nav-link" href="/obszary-dzialalnosci">Obszary działalności</a><a class="nav-link" href="/kontakt">Kontakt</a></nav><p class="heritage-line"><span aria-hidden="true"></span>Tworzymy trwałe dziedzictwo.</p><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9 menu-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg></button></div><nav class="mobile-nav" aria-label="Menu mobilne" hidden><a class="nav-link" href="/o-nas">O nas</a><a class="nav-link" href="/obszary-dzialalnosci">Obszary działalności</a><a class="nav-link" href="/kontakt">Kontakt</a></nav></header><main class="hero-page home-page"><div class="home-scene" aria-hidden="true"><img class="home-scene__bg" src="/assets/home-lobby-Bn4DWvPc.webp" alt="" width="1672" height="941" fetchPriority="high"/></div><div class="page-shade page-shade--home"></div><section class="hero-content"><h1><span class="gold">Budujemy wartość.</span><br/>Tworzymy nowe<br/>przedsięwzięcia.</h1><div class="gold-rule"></div><p class="hero-copy">Goldenovum Holdings to nowoczesna marka skupiona<br class="desktop-only"/> na rozwoju projektów, ochronie wartości i<br class="desktop-only"/> długoterminowym wzroście.</p><div class="hero-actions"><a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 gold-button" href="/o-nas">Poznaj nas <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 outline-button" href="/kontakt">Skontaktuj się <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div></section></main><footer class="site-footer"><p>© 2026 GOLDENOVUM HOLDINGS <span aria-hidden="true">|</span> <a href="/polityka-prywatnosci">Polityka prywatności</a></p></footer></div><script>
-  // Przełącznik menu mobilnego (oryginał robi to przez React)
-  const toggle = document.querySelector('.menu-toggle');
-  const mobileNav = document.querySelector('.mobile-nav');
-  toggle.addEventListener('click', () => {
-    const open = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!open));
-    toggle.setAttribute('aria-label', open ? 'Otwórz menu' : 'Zamknij menu');
-    mobileNav.hidden = open;
-  });
-</script>
-</body></html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Goldenovum — podnosimy wartość gruntów</title>
+<meta name="description" content="Masz działkę, z którą „nic się nie da zrobić”? Analizujemy grunty, zmieniamy ich przeznaczenie i przygotowujemy je do sprzedaży lub inwestycji."/>
+<meta property="og:title" content="Goldenovum — podnosimy wartość gruntów"/>
+<meta property="og:description" content="Analizujemy grunty, zmieniamy ich przeznaczenie i przygotowujemy je do sprzedaży lub inwestycji."/>
+<meta property="og:type" content="website"/>
+<meta name="theme-color" content="#f4f2ec"/>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap"/>
+<link rel="stylesheet" href="/assets/styles.css"/>
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<header class="header">
+  <div class="wrap header__inner">
+    <a class="brand" href="/" aria-label="Goldenovum — strona główna">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4.5c3.6 4.2 9 9.6 9 15a9 9 0 0 1-18 0c0-5.4 5.4-10.8 9-15z"/><path d="M16 13.8c2.2 1.6 4.6 3.6 4.6 5.7a4.6 4.6 0 0 1-9.2 0c0-2.1 2.4-4.1 4.6-5.7z"/><circle cx="16" cy="19.6" r="1.7"/></svg>
+      <span class="brand__name">Goldenovum</span>
+    </a>
+    <nav class="nav" aria-label="Nawigacja">
+      <a href="#dla-kogo">Dla kogo</a>
+      <a href="#co-robimy">Co robimy</a>
+      <a href="#proces">Proces</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn--small" href="#kontakt">Wyślij działkę</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">Grunty · Przeznaczenie · Wartość</p>
+        <h1>Masz działkę, z&nbsp;którą „nic się nie da zrobić”?</h1>
+        <p class="lead">Zwykle da się. Sprawdzamy, co wolno na gruncie zrobić, znajdujemy drogę do zmiany jego przeznaczenia i&nbsp;prowadzimy cały proces, aż ziemia jest warta więcej niż dziś.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#kontakt">Wyślij numer działki <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="#proces">Jak to działa</a>
+        </div>
+        <p class="hero__note">Na start wystarczy numer działki albo adres.</p>
+      </div>
+
+      <figure class="plan" aria-label="Animacja: działka rolna dostaje drogę dojazdową, zostaje podzielona i zmienia przeznaczenie na budowlane">
+        <svg viewBox="0 0 600 500" aria-hidden="true">
+          <defs>
+            <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+              <line x1="0" y1="0" x2="0" y2="7"/>
+            </pattern>
+          </defs>
+          <g class="plan__contours" id="contours"></g>
+
+          <g class="plan__map" transform="rotate(-9 300 250)">
+            <!-- pas drogi gminnej -->
+            <line class="plan__road" x1="40" y1="438" x2="560" y2="438"/>
+            <line class="plan__road" x1="40" y1="452" x2="560" y2="452"/>
+            <text class="plan__tiny" x="48" y="471">DROGA GMINNA</text>
+
+            <!-- sąsiednie działki: długie, wąskie pasy rolne -->
+            <g class="plan__parcels">
+              <path d="M60 70H98V430H60Z"/>
+              <path d="M98 70H124V430H98Z"/>
+              <path d="M124 70H172V300H124Z"/>
+              <path d="M124 300H172V430H124Z"/>
+              <path d="M172 70H200V430H172Z"/>
+              <path d="M200 70H234V430H200Z"/>
+              <path d="M350 70H372V430H350Z"/>
+              <path d="M372 70H414V250H372Z"/>
+              <path d="M372 250H414V430H372Z"/>
+              <path d="M414 70H446V430H414Z"/>
+              <path d="M446 70H492V430H446Z"/>
+              <path d="M492 70H540V430H492Z"/>
+            </g>
+
+            <!-- działka docelowa -->
+            <g class="plan__target">
+              <rect class="plan__hatch-bg" x="234" y="70" width="116" height="360"/>
+              <rect class="plan__lot plan__lot--1" x="262" y="70"  width="88" height="90"/>
+              <rect class="plan__lot plan__lot--2" x="262" y="160" width="88" height="90"/>
+              <rect class="plan__lot plan__lot--3" x="262" y="250" width="88" height="90"/>
+              <rect class="plan__lot plan__lot--4" x="262" y="340" width="88" height="90"/>
+
+              <line class="plan__draw plan__access" pathLength="1" x1="262" y1="438" x2="262" y2="70"/>
+              <line class="plan__draw plan__split plan__split--1" pathLength="1" x1="262" y1="160" x2="350" y2="160"/>
+              <line class="plan__draw plan__split plan__split--2" pathLength="1" x1="262" y1="250" x2="350" y2="250"/>
+              <line class="plan__draw plan__split plan__split--3" pathLength="1" x1="262" y1="340" x2="350" y2="340"/>
+
+              <rect class="plan__outline" x="234" y="70" width="116" height="360"/>
+              <text class="plan__id" x="242" y="62">dz. 214/3</text>
+            </g>
+          </g>
+        </svg>
+
+        <figcaption class="plan__card">
+          <span class="plan__label">Przeznaczenie</span>
+          <span class="plan__status">
+            <span class="plan__before">R IVb · grunt rolny</span>
+            <span class="plan__after">MN · zabudowa mieszkaniowa</span>
+          </span>
+          <span class="plan__label">Potencjał</span>
+          <span class="plan__bar"><span></span></span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- DLA KOGO -->
+  <section class="section" id="dla-kogo">
+    <div class="wrap">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Dla kogo</p>
+        <h2>Przychodzą do nas z&nbsp;jednym z&nbsp;trzech problemów.</h2>
+      </div>
+      <div class="cards">
+        <article class="card" data-reveal>
+          <span class="card__num">01</span>
+          <h3>Działka, na której podobno nic nie wolno</h3>
+          <p>Grunt rolny, brak planu miejscowego, odmowa warunków zabudowy, brak dojazdu. Usłyszałeś, że „nic się tam nie da”. Sprawdzamy, czy to prawda i&nbsp;co trzeba zrobić, żeby się dało.</p>
+        </article>
+        <article class="card" data-reveal>
+          <span class="card__num">02</span>
+          <h3>Ziemia, która leży i&nbsp;nic nie daje</h3>
+          <p>Odziedziczona, kupiona lata temu, za duża albo o&nbsp;dziwnym kształcie. Pokazujemy, co realnie można z&nbsp;nią zrobić i&nbsp;ile może być warta po zmianach.</p>
+        </article>
+        <article class="card" data-reveal>
+          <span class="card__num">03</span>
+          <h3>Kapitał, który szuka gruntu</h3>
+          <p>Chcesz ulokować pieniądze w&nbsp;ziemi, ale nie wiesz w&nbsp;jakiej. Wskazujemy grunty, których wartość da się podnieść, i&nbsp;przeprowadzamy przez cały proces.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CO ROBIMY -->
+  <section class="section section--tint" id="co-robimy">
+    <div class="wrap">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Co robimy</p>
+        <h2>Wartość działki zależy od tego, co wolno na niej zrobić. Zmieniamy to.</h2>
+      </div>
+      <div class="levers">
+        <article class="lever" data-reveal>
+          <svg class="lever__icon" viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="21" width="14" height="14"/><rect x="21" y="5" width="14" height="14"/><path d="M14 16l8-8M22 8h-6M22 8v6"/></svg>
+          <h3>Zmiana przeznaczenia</h3>
+          <p>Wnioski do planu ogólnego gminy i&nbsp;planu miejscowego, warunki zabudowy. Tak, żeby na gruncie wolno było budować lub prowadzić inwestycję.</p>
+        </article>
+        <article class="lever" data-reveal>
+          <svg class="lever__icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 34h32M4 28h10M4 22h10"/><path d="M20 34V22l8-7 8 7v12"/><path d="M26 34v-6h4v6"/></svg>
+          <h3>Odrolnienie</h3>
+          <p>Wyłączenie gruntu z&nbsp;produkcji rolnej tam, gdzie wymaga tego prawo. Bez tego kroku plan na papierze nie zamienia się w&nbsp;budowę.</p>
+        </article>
+        <article class="lever" data-reveal>
+          <svg class="lever__icon" viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="5" width="30" height="30"/><path d="M20 5v30M5 20h30" stroke-dasharray="3 3"/></svg>
+          <h3>Podział i&nbsp;scalenie</h3>
+          <p>Zmieniamy kształt i&nbsp;wielkość działek: dzielimy duży grunt na mniejsze albo łączymy wąskie pasy w&nbsp;teren, na którym da się budować.</p>
+        </article>
+        <article class="lever" data-reveal>
+          <svg class="lever__icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 30h32M4 36h32"/><path d="M20 30V6"/><path d="M14 10h12M14 16h12"/><circle cx="20" cy="22" r="3"/></svg>
+          <h3>Dojazd i&nbsp;media</h3>
+          <p>Dostęp do drogi publicznej, służebności, zjazdy, warunki przyłączenia prądu, wody i&nbsp;kanalizacji. Często to one blokują wartość działki.</p>
+        </article>
+        <article class="lever" data-reveal>
+          <svg class="lever__icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="17" cy="17" r="11"/><path d="M25 25l10 10"/><path d="M11 17h12M17 11v12" opacity=".5"/></svg>
+          <h3>Audyt gruntu</h3>
+          <p>Księga wieczysta, ewidencja, plany, ograniczenia środowiskowe, sąsiedztwo. Wiesz, co masz, zanim wydasz złotówkę na zmiany.</p>
+        </article>
+        <article class="lever" data-reveal>
+          <svg class="lever__icon" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 32l9-9 6 6 11-13"/><path d="M27 16h7v7"/><path d="M4 36h32"/></svg>
+          <h3>Przygotowanie do sprzedaży lub inwestycji</h3>
+          <p>Komplet dokumentów, zdjęcia i&nbsp;pomiary z&nbsp;drona, materiały dla kupującego lub banku. Grunt gotowy, żeby sprzedać go drożej albo zacząć budowę.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCES -->
+  <section class="section" id="proces">
+    <div class="wrap">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Proces</p>
+        <h2>Od numeru działki do gruntu gotowego do sprzedaży lub budowy.</h2>
+      </div>
+      <ol class="steps" data-reveal>
+        <li class="step">
+          <span class="step__num">1</span>
+          <h3>Numer działki</h3>
+          <p>Wysyłasz numer działki albo adres i&nbsp;krótko piszesz, czego oczekujesz.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">2</span>
+          <h3>Analiza</h3>
+          <p>Sprawdzamy plany, ewidencję, księgę wieczystą, dojazd, media, sąsiedztwo i&nbsp;ograniczenia.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">3</span>
+          <h3>Diagnoza</h3>
+          <p>Mówimy wprost, co da się zrobić, ile to potrwa i&nbsp;ile kosztuje. Jeśli się nie da, też to usłyszysz.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">4</span>
+          <h3>Realizacja</h3>
+          <p>Prowadzimy wnioski, dokumentację i&nbsp;formalności, aż grunt jest gotowy do sprzedaży lub inwestycji.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- O FIRMIE -->
+  <section class="statement" id="o-firmie">
+    <div class="wrap statement__grid" data-reveal>
+      <p class="statement__text">Goldenovum to holding, który rozwija własne projekty i&nbsp;spółki. Dziś skupiamy się na gruntach: inwestujemy w&nbsp;ziemię, przygotowujemy ją do zabudowy i&nbsp;sprzedaży oraz pomagamy właścicielom wydobyć z&nbsp;ziemi jej pełną wartość.</p>
+      <div class="statement__stat">
+        <span class="statement__num">30+</span>
+        <span class="statement__cap">lat doświadczenia w&nbsp;prowadzeniu i&nbsp;rozwijaniu biznesu</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section contact" id="kontakt">
+    <div class="wrap contact__grid">
+      <div data-reveal>
+        <p class="eyebrow">Kontakt</p>
+        <h2>Opisz swoją działkę.<br/>Odpowiemy, co da się z&nbsp;nią zrobić.</h2>
+        <a class="contact__email" href="mailto:kontakt@goldenovum.pl">kontakt@goldenovum.pl</a>
+      </div>
+      <div class="contact__box" data-reveal>
+        <p class="contact__box-title">W wiadomości napisz:</p>
+        <ul class="checklist">
+          <li>gdzie leży działka: numer działki lub adres,</li>
+          <li>jaką ma powierzchnię,</li>
+          <li>co o niej wiesz: plan, dojazd, media,</li>
+          <li>co chcesz osiągnąć: sprzedaż, budowa, inwestycja.</li>
+        </ul>
+        <a class="btn btn--block" href="mailto:kontakt@goldenovum.pl?subject=Dzia%C5%82ka%20do%20analizy&amp;body=Lokalizacja%20%28numer%20dzia%C5%82ki%20lub%20adres%29%3A%0A%0APowierzchnia%3A%0A%0ACo%20o%20niej%20wiem%20%28plan%2C%20droga%2C%20media%29%3A%0A%0ACo%20chc%C4%99%20osi%C4%85gn%C4%85%C4%87%20%28sprzeda%C5%BC%20/%20budowa%20/%20inwestycja%29%3A%0A">Napisz wiadomość z&nbsp;gotowym szablonem <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div>
+      <p class="footer__name">Goldenovum sp. z o.o.</p>
+      <p>al. Komisji Edukacji Narodowej 36, Warszawa</p>
+      <p class="footer__ids">KRS 0000338400 · NIP 5213533496 · REGON 141901604</p>
+    </div>
+    <div class="footer__right">
+      <a href="mailto:kontakt@goldenovum.pl">kontakt@goldenovum.pl</a>
+      <a href="/polityka-prywatnosci">Polityka prywatności</a>
+      <p>© <span data-year>2026</span> Goldenovum</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js" defer></script>
+</body>
+</html>
